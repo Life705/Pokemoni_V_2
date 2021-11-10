@@ -5,21 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
 </head>
 
-<body>
-    <h1 class="titlu">POKEMONI CARDS AND STUFF</h1>
-    <div class="search-bar"><input class="search" type="text" placeholder="Search..">
-        <!-- <button type="submit" class="searchButton"> <img class="img-search" src="/PokePoze/3338056.png" alt="">
-        </button> -->
+<body class="bodi">
+    <h1 class="title">POKEMONI CARDS AND STUFF</h1>
+    <div class="search-bar" id="search-bar"><input " class=" search" type="text" placeholder="Search..">
+        <button type="submit" class="glass-search-button"> <img class="img-search" src="/PokePoze/3338056.png" alt="">
+        </button>
     </div>
 
     <div class="main">
 
     </div>
+    <div class="add-pokemon">
+        <form action="">
+            <div class="inside-form">
+                <label for="poke-name"> Pokemon Name</label>
+                <input type="text" id="poke-name">
+            </div>
+            <div class="inside-form">
+                <label for="poke-ppicture">Add Picturee</label>
+                <input type="text" id="poke-picture">
+            </div>
+            <div class="inside-form">
+                <label for="poke-height"> Height</label>
+                <input type="text" id="poke-height">
+            </div>
 
-    <script src="/main.js" type="module"></script>
+            <div class="inside-form">
+                <label for="poke-category">Category</label>
+                <input type="text" id="poke-category">
+            </div>
+            <div class="inside-form">
+                <label for="poke-weight">Weight</label>
+                <input type="text" id="poke-weight">
+            </div>
+            <div class="abilities-title">Abilities</div>
+            <div class="abilities">
+
+                <label for="poke-power1">Power 1</label>
+                <input type="checkbox" name="Strong" class="power-select" id="poke-power1">
+                <label for="poke-power2">Power 2</label>
+                <input type="checkbox" name="Fast" class="power-select" id="poke-power2">
+                <label for="poke-power3">Power 3</label>
+                <input type="checkbox" name="Invisibility" class="power-select" id="poke-power3">
+                <label for="poke-power4">Power 4</label>
+                <input type="checkbox" name="Levitation" class="power-select" id="poke-power4">
+                <label for="poke-power5">Power 5</label>
+                <input type="checkbox" name="Teleport" class="power-select" id="poke-power5">
+
+            </div>
+            <button class="button-add-poke">Add Pokemon</button>
+
+        </form>
+    </div>
+    <div class="nimmic" style="height: 1000px;"></div>
+    <script src="main.js" type="module"></script>
+
 </body>
 
 </html>

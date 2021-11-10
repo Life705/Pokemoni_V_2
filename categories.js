@@ -1,3 +1,4 @@
 export const categories = {
-    GAS: "Gas"
+    GAS: "Gas",
+    ELECTRIC: "Electric",
 }
